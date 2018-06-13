@@ -54,10 +54,10 @@ function removeFromCart(item) {
     return "That item is not in your cart."
 }
 function placeOrder(cardNumber) {
- if (12345678 !== `${cardNumber}`) {
+ if (cardNumber !== `${cardNumber}`) {
    return "Sorry, we don't have a credit card on file for you."
  } 
- else ('12345678' ===`${cardNumber}`) 
+ else (cardNumber ===`${cardNumber}`) 
    cart.splice(0, cart.length)
  return `Your total cost is $${runningTotal} which will be charged to the card ${cardNumber}.`
 }
