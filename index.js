@@ -59,6 +59,6 @@ function placeOrder(cardNumber) {
  } 
  else ('12345678' ===`${cardNumber}`) 
    cart.splice(0, cart.length)
- return `Your total cost is $${cartTotal} which will be charged to the card ${cardNumber}.`
+ return `Your total cost is $${runningTotal} which will be charged to the card ${cardNumber}.`
 }
 
