@@ -34,7 +34,7 @@ function viewCart() {
       return `${statement1} ${statement2}${statement3}.`
     }
 }
-
+ var runningTotal = 0
 function total() {
 
 for(var i = 0; i < getCart().length; i++) {
