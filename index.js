@@ -36,7 +36,7 @@ function viewCart() {
 }
 
 function total() {
- var runningTotal = 0
+ runningTotal = 0
 for(var i = 0; i < getCart().length; i++) {
  getCart()[i].itemPrice
   	runningTotal = runningTotal + getCart()[i].itemPrice
